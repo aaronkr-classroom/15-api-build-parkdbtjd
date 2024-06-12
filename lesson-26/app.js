@@ -96,7 +96,7 @@ app.use((req, res, next) => {
  */
 
 // 애플리케이션에 Mongoose 설정
-const mongoose = require("mongoose");// mongoose를 요청
+const mongoose = require("mongoose"); // mongoose를 요청
 mongoose.connect(
   "mongodb+srv://dbtjdqkr12:dbtjd960713!@ut-node.9pkr7pn.mongodb.net/?retryWrites=true&w=majority&appName=UT-Node/ut-node", //Atlas 경로
   { useNewUrlParser: true }
@@ -150,10 +150,6 @@ app.use("/", router); // 라우터를 애플리케이션에 추가
 /** @TODO: Train 라우트의 trainRoutes.js로의 이동 */
 
 /** @TODO: Talk 라우트의 talkRoutes.js로의 이동 */
-
-/** @TODO: Research 라우트의 researchRoutes.js로의 이동 */
-
-/** @TODO: Research 라우트의 researchRoutes.js로의 이동 */
 
 /**
  * =====================================================================
