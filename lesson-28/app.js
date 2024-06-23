@@ -45,7 +45,7 @@ app.use(
       maxAge: 4000000, // 쿠키의 유효 기간을 설정
     },
     resave: false, // 세션을 매번 재저장하지 않도록 설정
-    saveUninitialized: false, // 초기화되지 않은 세션을 저장하지 않도록 설정
+    saveUninitialized: false, 
   })
 );
 app.use(connectFlash()); // connect-flash 미들웨어를 사용
