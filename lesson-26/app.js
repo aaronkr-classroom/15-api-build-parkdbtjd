@@ -116,7 +116,7 @@ app.set("port", process.env.PORT || 3000);
 
 // ejs 레이아웃 렌더링
 app.set("view engine", "ejs"); // ejs를 사용하기 위한 애플리케이션 세팅
-app.use(layouts); // layout 모듈 사용을 위한 애플리케이션 세팅
+app.use(layouts); 
 app.use(express.static("public"));
 
 // body-parser의 추가
